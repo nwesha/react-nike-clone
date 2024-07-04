@@ -18,7 +18,7 @@ This project is a simple e-commerce product listing and management application b
 
    ```bash
    git clone https://github.com/nwesha/react-nike-clone.git
-   cd ecommerce-product-listing
+   cd react-nike-clone
 
 2. **Install dependencies:**
 
