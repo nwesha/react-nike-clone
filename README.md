@@ -17,7 +17,7 @@ This project is a simple e-commerce product listing and management application b
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/ecommerce-product-listing.git
+   git clone https://github.com/nwesha/react-nike-clone.git
    cd ecommerce-product-listing
 
 2. **Install dependencies:**
