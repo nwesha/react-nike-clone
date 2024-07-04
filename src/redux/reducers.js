@@ -6,7 +6,7 @@ const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
 const favoritesReducer = (state = [], action) => {
     switch (action.type) {
         case ADD_TO_FAVORITES:
-            return [...state, action.payload];
+            return [...state, action.payload.articleNo];
         default:
             return state;
     }

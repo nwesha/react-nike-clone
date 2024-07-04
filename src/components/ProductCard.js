@@ -1,24 +1,20 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import { addToFavorites, addToCart } from '../features/productsSlice';
-import './product.css';
+import './CartAndFavorites.css';
+
 
 const ProductCard = ({ product }) => {
-    const dispatch = useDispatch();
-
     return (
-        <div className="product-card">
-            <img src={product.imageUrl} alt={product.productName} />
-            <div className='product-info'>
-            <h3>{product.productName}</h3>
-            <p>{product.currency} {product.listPrice}</p>
-            <button onClick={() => dispatch(addToFavorites(product.articleNo))}>Add to Favorites</button>
-            <button onClick={() => dispatch(addToCart(product.articleNo))}>Add to Cart</button>
-            </div>
+        <div className="product-card-cnf">
+            <a href={product.url}>
+                <img src={product.imageUrl} alt={product.productName} />
+                <div className="product-info-cnf">
+                    <h3>{product.productName}</h3>
+                    <p>{product.division} {product.category}</p>
+                    <span>{product.currency} {product.listPrice}</span>
+                </div>
+            </a>
         </div>
     );
 };
 
 export default ProductCard;
-
-

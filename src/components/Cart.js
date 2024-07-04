@@ -2,6 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart } from '../redux/actions';
 import ProductCard from './ProductCard';
+import './CartAndFavorites.css'; // Import CSS
 
 const Cart = () => {
     const cartItems = useSelector(state => state.cart);
@@ -21,7 +22,9 @@ const Cart = () => {
                     {cartItems.map(item => (
                         <div key={item.articleNo} className="cart-item">
                             <ProductCard product={item} />
+                            <div className="cnf">
                             <button onClick={() => handleRemoveFromCart(item.articleNo)}>Remove</button>
+                            </div>
                         </div>
                     ))}
                 </div>

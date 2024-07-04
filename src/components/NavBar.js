@@ -4,7 +4,6 @@ import './NavBar.css';
 import nikeLogo from './nike-logo.png';
 
 
-
 const NavBar = ({ filters = { division: [], subCategory: [] }, productCount, toggleSidebar, sidebarVisible, handleSortChange }) => {
     const [dropdownVisible, setDropdownVisible] = useState(false);
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
