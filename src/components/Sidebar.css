@@ -1,0 +1,64 @@
+.sidebar-container {
+    width: 200px;
+    padding: 10px 0 0 3em;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+  }
+  
+  .categories {
+    margin-bottom: 5px;
+  }
+  
+  .categories div {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .sidebar-container select,
+  .sidebar-container input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+    
+  .filter-section {
+    margin-bottom: 5px;
+  }
+  
+  .filter-section h3 {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+    font-weight: 500;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    font-size: 0.98em;
+  }
+  
+  .filter-options {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .filter-options div {
+    margin-bottom: 10px;
+  }
+  
+  .filter-options input {
+    margin-right: 10px;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 20px 10px 0;
+
+  }
+
+  .filter-section h3 span {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+  
