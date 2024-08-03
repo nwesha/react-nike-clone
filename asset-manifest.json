@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nike-store-clone/static/css/main.b275aace.css",
+    "main.js": "/nike-store-clone/static/js/main.d99e4104.js",
+    "index.html": "/nike-store-clone/index.html",
+    "main.b275aace.css.map": "/nike-store-clone/static/css/main.b275aace.css.map",
+    "main.d99e4104.js.map": "/nike-store-clone/static/js/main.d99e4104.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b275aace.css",
+    "static/js/main.d99e4104.js"
+  ]
+}
